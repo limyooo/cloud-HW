@@ -15,18 +15,18 @@ cloud-HW/
 │   └── test_calculator.py
 ├── requirements.txt
 └── README.md
+```
 
-Prerequisites
-Python 3.8 or higher
+## Prerequisites
+- Python 3.8 or higher
+- Git
 
-Git
-
-Running Tests Locally
+## Running Tests Locally
 To run the test suite on your local machine, follow these steps:
 1. Install dependencies:
 pip install -r requirements.txt
 
-2.Run tests with pytest:
+2. Run tests with pytest:
 PYTHONPATH=. pytest
 
 CI/CD Pipeline
