@@ -24,10 +24,14 @@ cloud-HW/
 ## Running Tests Locally
 To run the test suite on your local machine, follow these steps:
 1. Install dependencies:
+```text
 pip install -r requirements.txt
+```
 
-2. Run tests with pytest:
+3. Run tests with pytest:
+```text
 PYTHONPATH=. pytest
+```
 
 CI/CD Pipeline
 The project utilizes GitHub Actions for continuous integration. Every time you push code to the repository or trigger it manually via workflow dispatch (ad-hoc), the workflow automatically:
