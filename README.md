@@ -15,6 +15,7 @@ cloud-HW/
 │   └── test_calculator.py
 ├── requirements.txt
 └── README.md
+
 Prerequisites
 Python 3.8 or higher
 
